@@ -7,8 +7,8 @@ const Websites = () => {
 
   return (
     <section style={{ backgroundImage: 'url(Untitled_design__8_-removebg-preview.png)' }}
-      className="w-full h-screen bg-cover">
-      <div className='flex flex-col items-center mx-4 lg:mx-40 mt-12 text-justify justify-center gap-16 bg-gradient-to-tr from-cyan-500 via-purple-500 to-amber-500 p-4 rounded-lg'>
+      className="w-full h-full lg:h-[850px] bg-cover">
+      <div className='flex flex-col items-center mx-4 lg:mx-40 mt-12 text-justify justify-center gap-16 bg-gradient-to-tr from-cyan-500 via-purple-500 to-amber-500 p-4 rounded-lg drop-shadow-[1px_1px_5px_black]'>
         <h2 className='text-4xl font-bold text-yellow-500 drop-shadow-[1px_1px_1px_black]'>
           Exemplos de sites feitos por nós
         </h2>

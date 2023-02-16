@@ -9,7 +9,7 @@ const Projects = () => {
       backgroundImage: 'url(Untitled_design__7_-removebg-preview.png)'
     }}
       className="w-full h-full bg-cover bg-no-repeat mt-20 pb-[100px]">
-      <div className='flex flex-col items-center mx-4 lg:mx-40 mt-12 text-justify justify-center gap-16 bg-gradient-to-tr from-cyan-500 via-purple-500 to-amber-500 p-4 rounded-lg'>
+      <div className='flex flex-col items-center mx-4 lg:mx-40 mt-12 text-justify justify-center gap-16 bg-gradient-to-tr from-cyan-500 via-purple-500 to-amber-500 p-4 rounded-lg drop-shadow-[1px_1px_5px_black]'>
         <h2 className='text-4xl font-bold text-yellow-500 drop-shadow-[1px_1px_1px_black]'>
           Logotipos feitas por nós
         </h2>

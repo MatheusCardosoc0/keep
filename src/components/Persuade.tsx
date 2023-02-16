@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn, slideIn } from '../utils/motion'
 
 const Persuade = () => {
   return (
@@ -13,7 +15,7 @@ const Persuade = () => {
         <h2 className='text-3xl text-yellow-500 drop-shadow-[1px_1px_1px_black]'>
           Por que preciso da KEEP?
         </h2>
-        
+
         <p className='text-justify'>
           Cada vez mais pessoas e empresas estão percebendo a importância de uma presença online forte e consistente, e a gestão de redes sociais, um site e logotipo são elementos cruciais para alcançar esse objetivo. Uma boa gestão de redes sociais permite que você estabeleça uma conexão mais próxima com seu público-alvo, aumentando sua visibilidade e interação nas mídias sociais. Com uma equipe especializada para cuidar de suas redes sociais, você pode ter mais tempo para se concentrar em outras áreas de sua vida ou negócio.
         </p>
@@ -27,7 +29,11 @@ const Persuade = () => {
 
       </div>
 
-      <div className='flex flex-col lg:flex-row justify-center items-center gap-12 pb-8 bg-purple-700 p-4 rounded-lg mx-8 mt-8 lg:mx-20'>
+      <motion.div variants={slideIn('left', 'tween', 0.25, 1.4)}
+        className='flex flex-col lg:flex-row justify-center items-center gap-12 pb-8 bg-purple-700 p-4 rounded-lg mx-8 mt-8 lg:mx-20 drop-shadow-[1px_1px_5px_black]'
+        initial="hidden"
+        whileInView={'show'}
+      >
         <img alt="" src='Assinante da Keep.png'
           className='w-[500px] h-[300px] rounded-lg' />
 
@@ -42,7 +48,7 @@ const Persuade = () => {
             Entre em contato conosco para saber mais sobre nossos serviços e descobrir como podemos ajudá-lo a alcançar seus objetivos online.
           </p>
         </div>
-      </div>
+      </motion.div>
 
     </section>
   )
