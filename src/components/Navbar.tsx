@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <span className='flex gap-4 text-2xl text-purple-400'>
         <a href='#about' className='text-white hover:text-amber-400 hover:underline cursor-pointer font-bold'>Sobre</a> |
-        <a className='text-white hover:text-amber-400 hover:underline cursor-pointer font-bold'>Projetos</a> |
+        <a href='#projects' className='text-white hover:text-amber-400 hover:underline cursor-pointer font-bold'>Projetos</a> |
         <a className='text-white hover:text-amber-400 hover:underline cursor-pointer font-bold'>Contato</a>
       </span>
     </nav>

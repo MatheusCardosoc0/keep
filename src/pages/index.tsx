@@ -2,6 +2,8 @@ import React from 'react'
 import About from '../components/About'
 import Navbar from '../components/Navbar'
 import Persuade from '../components/Persuade'
+import Projects from '../components/Projects'
+import Websites from '../components/Websites'
 
 const index = () => {
   return (
@@ -11,6 +13,10 @@ const index = () => {
       <About />
 
       <Persuade />
+
+      <Projects />
+
+      <Websites />
 
       {/*<a href='https://wa.me/996042564'>whatsapp</a>*/}
     </div>
