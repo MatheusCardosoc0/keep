@@ -3,7 +3,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <section id="contact" className='w-full bg-zinc-900 mt-20 flex justify-between items-center px-4 lg:px-16'>
+    <section id="contact" className='w-full bg-zinc-900 mt-20 flex justify-between items-center px-4 lg:px-16 flex-col md:flex-row'>
       <div className='text-white p-4 flex flex-col gap-4'>
         <h2 className='text-2xl font-bold'>
           Entre em contato conosco:
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <a href=''>
+      <a href='https://www.instagram.com/keepdivulgacoes/' target={"_blank"}>
         <AiFillInstagram className='text-7xl bg-gradient-to-tr from-cyan-500 via-purple-500 to-amber-500 rounded-xl text-white drop-shadow-[1px_1px_4px_black]' />
       </a>
     </section>

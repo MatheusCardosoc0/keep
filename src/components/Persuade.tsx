@@ -10,9 +10,9 @@ const Persuade = () => {
         backgroundImage: 'url(a.png)'
       }}>
 
-      <div className='mt-80 lg:mt-0 text-xl flex flex-col gap-8 font-bold mx-4 lg:mx-40'>
+      <div className='mt-80 lg:mt-0 md:text-xl flex flex-col gap-8 font-bold mx-4 lg:mx-40'>
 
-        <h2 className='text-3xl text-yellow-500 drop-shadow-[1px_1px_1px_black]'>
+        <h2 className='md:text-3xl text-2xl text-yellow-500 drop-shadow-[1px_1px_1px_black]'>
           Por que preciso da KEEP?
         </h2>
 
@@ -30,14 +30,14 @@ const Persuade = () => {
       </div>
 
       <motion.div variants={slideIn('left', 'tween', 0.25, 1.4)}
-        className='flex flex-col lg:flex-row justify-center items-center gap-12 pb-8 bg-purple-700 p-4 rounded-lg mx-8 mt-8 lg:mx-20 drop-shadow-[1px_1px_5px_black]'
+        className='flex flex-col-reverse xl:flex-row justify-center items-center gap-12 pb-8 bg-purple-700 p-4 rounded-lg mx-8 mt-8 lg:mx-20 drop-shadow-[1px_1px_5px_black]'
         initial="hidden"
         whileInView={'show'}
       >
         <img alt="" src='Assinante da Keep.png'
-          className='w-[500px] h-[300px] rounded-lg' />
+          className='w-[300px] h-[200px] md:w-[500px] md:h-[300px] rounded-lg' />
 
-        <div className='text-justify text-white drop-shadow-[1px_1px_0px_black] text-xl font-extrabold flex flex-col gap-4'>
+        <div className='text-left md:text-justify text-white drop-shadow-[1px_1px_0px_black] md:text-xl text-sm font-extrabold flex flex-col gap-4'>
           <p>
             Para aqueles que desejam uma presença online forte e eficaz, a KEEP é a empresa certa para você. Com soluções personalizadas de gestão de redes sociais, criação de sites responsivos e profissionais e criação de logotipos de qualidade, a KEEP pode ajudar a construir uma identidade digital sólida e coerente com seus valores e objetivos.
           </p>

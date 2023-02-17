@@ -5,8 +5,8 @@ const About = () => {
     <section id='about' style={{
       backgroundImage: 'url(Untitled_design__5_-removebg-preview.png)'
     }}
-      className='w-full h-screen bg-no-repeat bg-cover mt-28 lg:mt-2 flex flex-col lg:flex-row items-center justify-between'>
-      <div className='flex flex-col gap-4 mt-4 mb-6 p-4 text-white font-bold bg-gradient-to-tr from-cyan-500 via-purple-500 to-amber-500 text-xl rounded-lg drop-shadow-[1px_1px_12px_black] lg:max-w-[1400px] lg:mx-auto mx-4'>
+      className='w-full h-full bg-no-repeat bg-cover pt-40 lg:mt-2 flex flex-col lg:flex-row items-center justify-between'>
+      <div className='flex flex-col gap-4 mt-4 mb-6 p-4 text-white font-bold bg-gradient-to-tr from-cyan-500 via-purple-500 to-amber-500 text-sm md:text-xl rounded-lg drop-shadow-[1px_1px_12px_black] lg:max-w-[1400px] lg:mx-auto mx-4'>
 
 
 
@@ -14,7 +14,7 @@ const About = () => {
           <img src='KEEP__3_-removebg-preview.png'
             className='w-[300px] h-[300px] mx-auto' />
           <div className='flex flex-col gap-4'>
-            <h2 className='text-4xl font-bold drop-shadow-[1px_1px_4px_black] text-yellow-400 text-left' >
+            <h2 className='text-2xl md:text-4xl font-bold drop-shadow-[1px_1px_4px_black] text-yellow-400 text-left' >
               Sobre a KEEP
             </h2>
             <p className='text-justify drop-shadow-[1px_1px_4px_black]'>
