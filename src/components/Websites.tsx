@@ -24,7 +24,7 @@ const Websites = () => {
             Os sites da KEEP são a escolha certa para quem busca uma presença online forte e eficaz. Nossos sites são responsivos, modernos e profissionais. Além disso, cada site é criado levando em consideração as necessidades e objetivos de cada cliente, garantindo assim uma experiência personalizada e única.
           </p>
 
-          <div className='w-[90%] xl:w-[1000px] xl:h-[500px] mx-auto mt-4 rounded-lg h-[500px] bg-yellow-500 flex flex-col md:flex-row gap-2 p-2'>
+          <div className='w-[90%] xl:w-[1000px] xl:h-[500px] mx-auto mt-4 rounded-lg h-[500px] bg-yellow-500 flex flex-col-reverse md:flex-row-reverse gap-2 p-2'>
 
             <div className={` flex-1 rounded-l-lg bg-center
              ${active == 0 && 'flex-[5] md:text-8xl text-5xl bg-cover'}
@@ -32,7 +32,7 @@ const Websites = () => {
               style={{ backgroundImage: 'url(Sorveloteria.png)' }}>
 
               <a className={`relative top-[50%] w-[100px] left-1/2 font-bold text-white drop-shadow-[1px_1px_1px_black] ${active !== 0 && 'hidden'}`}
-                href="https://sorveloteria.netlify.app/">
+                href="https://sorveloteria.netlify.app/" target={"_blank"}>
                 <BsFillEyeFill />
               </a>
             </div>
@@ -43,7 +43,7 @@ const Websites = () => {
               style={{ backgroundImage: 'url(7.png)' }}>
 
               <a className={`relative top-[50%] left-1/2 -translate-x-1/2 font-bold text-white drop-shadow-[1px_1px_1px_black] ${active !== 1 && 'hidden'}`}
-                href="https://ecommerce-eta-coral.vercel.app/">
+                href="https://ecommerce-eta-coral.vercel.app/" target={"_blank"}>
                 <BsFillEyeFill />
               </a>
             </div>
@@ -54,7 +54,7 @@ const Websites = () => {
               style={{ backgroundImage: 'url(19.png)' }}>
 
               <a className={`relative top-[50%] left-1/2 -translate-x-1/2 font-bold text-white drop-shadow-[1px_1px_1px_black] ${active !== 2 && 'hidden'}`}
-                href="https://mks-sistema-teste.vercel.app/">
+                href="https://mks-sistema-teste.vercel.app/" target={"_blank"}>
                 <BsFillEyeFill />
               </a>
             </div>
@@ -65,7 +65,18 @@ const Websites = () => {
               style={{ backgroundImage: 'url(rt.png)' }}>
 
               <a className={`relative top-[50%] left-1/2 -translate-x-1/2 font-bold text-white drop-shadow-[1px_1px_1px_black] ${active !== 3 && 'hidden'}`}
-                href="http://miracleimoveis.com.br/">
+                href="http://miracleimoveis.com.br/" target={"_blank"}>
+                <BsFillEyeFill />
+              </a>
+            </div>
+
+            <div className={` flex-1 rounded-l-lg bg-center
+             ${active == 4 && 'flex-[5] md:text-8xl text-5xl bg-cover'}
+              transition-all duration-1000 cursor-pointer bg-no-repeat  bg-white `} onClick={() => setActive(4)}
+              style={{ backgroundImage: 'url(lvp.png)' }}>
+
+              <a className={`relative top-[50%] left-1/2 -translate-x-1/2 font-bold text-white drop-shadow-[1px_1px_1px_black] ${active !== 4 && 'hidden'}`}
+                href="https://www.levapecas.com.br/" target={"_blank"}>
                 <BsFillEyeFill />
               </a>
             </div>
