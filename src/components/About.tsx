@@ -18,7 +18,7 @@ const About = () => {
               Sobre a KEEP
             </h2>
             <p className='text-justify drop-shadow-[1px_1px_4px_black]'>
-              A KEEP é uma empresa especializada em soluções de marketing digital para empresas que buscam ampliar sua presença online. Com uma equipe qualificada, a KEEP oferece serviços de gestão de redes sociais, criação de sites e logotipos, ajudando as empresas a construir uma identidade digital sólida e coerente com seus valores e objetivos.
+              A KEEP é uma empresa especializada em soluções de marketing digital para empresas que buscam ampliar sua presença online. Com uma equipe qualificada, a KEEP oferece serviços de gestão de redes sociais, criação de sites, logotipos, Criação de site,  landpage, páginas de vendas, logomarca e gestão de tráfego. ajudando as empresas a construir uma identidade digital sólida e coerente com seus valores e objetivos.
             </p>
 
             <p className='text-justify drop-shadow-[1px_1px_4px_black]'>

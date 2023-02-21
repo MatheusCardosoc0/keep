@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='flex gap-5'>
           <span className='flex flex-col gap-2'>
             <p>
-              Rua 42E Qd 74 Lt 30
+              Rua 42E Qd 74 Lt 29
             </p>
             <p>
               St Garavelo Residencial Park
@@ -22,7 +22,7 @@ const Footer = () => {
               Aparecida de Goiânia - Goiás
             </p>
             <p>
-              Tel /WhatsApp (62) 99990-6983
+              Tel /WhatsApp (62) 3576-5179
             </p>
           </span>
         </div>
