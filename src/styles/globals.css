@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 
+body {
+  font-family: 'Prompt', cursive;
+}
+
 .inverter{
   transform: rotateY(180deg);
+}
+
+.glass{
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.078), rgba(0, 0, 0, 0.127));
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(0, 0, 0, 0.245);
 }

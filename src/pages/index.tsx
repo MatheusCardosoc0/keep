@@ -1,30 +1,25 @@
+import Head from 'next/head'
 import React from 'react'
-import About from '../components/About'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import Persuade from '../components/Persuade'
-import Projects from '../components/Projects'
-import Websites from '../components/Websites'
-import {IoLogoWhatsapp} from 'react-icons/io'
+import { IoLogoWhatsapp } from 'react-icons/io'
+import Header from '../components/PageComponents/Header'
+import Services from '../components/PageComponents/Services'
 
 const index = () => {
   return (
-    <div className='bg-gradient-to-tr from-cyan-200 to-purple-200 overflow-x-hidden'>
-      <Navbar />
+    <div className='overflow-x-hidden'>
+      <Head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet" />
+      </Head>
 
-      <About />
 
-      <Persuade />
+      <Header />
 
-      <Projects />
+      <Services />
 
-      <Websites />
-
-      <Footer />
-
-      <a className='fixed bottom-2 right-0 md:right-2 bg-white p-0 rounded-full' href='https://wa.me/35765179'>
-        <IoLogoWhatsapp className='text-5xl md:text-6xl text-[#34af23] inverter' />
-        </a>
+     
     </div>
   )
 }
