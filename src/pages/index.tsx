@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import React from 'react'
 import { IoLogoWhatsapp } from 'react-icons/io'
+import Conclusion from '../components/PageComponents/Conclusion'
+import Footer from '../components/PageComponents/Footer'
 import Header from '../components/PageComponents/Header'
 import Services from '../components/PageComponents/Services'
 
@@ -19,7 +21,15 @@ const index = () => {
 
       <Services />
 
-     
+      <Conclusion />
+
+      <Footer />
+
+      <a className='fixed bottom-2 right-0 md:right-2 bg-white p-0 rounded-full' href='https://wa.me/35765179'>
+        <IoLogoWhatsapp className='text-5xl md:text-6xl text-[#34af23] inverter' />
+      </a>
+
+
     </div>
   )
 }
