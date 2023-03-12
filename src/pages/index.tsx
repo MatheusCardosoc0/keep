@@ -25,7 +25,7 @@ const index = () => {
 
       <Footer />
 
-      <a className='fixed bottom-2 right-0 md:right-2 bg-white p-0 rounded-full' href='https://wa.me/35765179'>
+      <a className='fixed bottom-2 right-0 md:right-2 bg-white p-0 rounded-full' href='https://wa.me/35765179' target={"_blank"}>
         <IoLogoWhatsapp className='text-5xl md:text-6xl text-[#34af23] inverter' />
       </a>
 
