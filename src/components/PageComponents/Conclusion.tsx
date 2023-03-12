@@ -7,7 +7,7 @@ const Conclusion = () => {
       <img src='/value.png' className='sm:w-[500px] sm:h-[600px]' />
 
       <h2 className='w-[90%] text-center sm:text-start sm:w-[500px] text-2xl font-bold'>
-        Não desperdice mais tempo e dinheiro com estratégias ultrapassadas. Deixe a equipe da Keep cuidar do seu negócio e decola-lo no digital.
+        Não desperdice mais tempo e dinheiro com estratégias ultrapassadas. Deixe a Keep cuidar da sua empresa e você verá a concorrência ficar para trás!
       </h2>
       <LinkBusiness />
     </section>

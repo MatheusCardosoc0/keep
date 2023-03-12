@@ -13,7 +13,7 @@ export const services: Service[] = [
   },
   {
     banner: '/siteIcon.png',
-    description: 'Tenha um site personalizado e profissional para decolar na web, construído por especialistas em web design.',
+    description: 'Tenha um site, landing page ou micro site personalizado e profissional para decolar na web, construído por especialistas em web design.',
     title: 'Criação de sites'
   },
   {
