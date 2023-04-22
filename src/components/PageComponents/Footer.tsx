@@ -10,7 +10,7 @@ const Footer = () => {
         </h3>
         <div className=' sm:text-xl'>
           <p>Telefone:(62) 3576-5179</p>
-          <p>Email: lastgyncosta@gmail.com</p>
+          <p>Email: keepsolucoes@proton.me</p>
           <p>Aparecida de Goiânia - GO</p>
         </div>
 
