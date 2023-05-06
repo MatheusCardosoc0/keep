@@ -24,6 +24,6 @@ export const services: Service[] = [
   {
     banner: 'traficIcon.png',
     description: "Aumente a conversão de leads em vendas com a Gestão de Tráfego da Keep. Deixe-nos cuidar da sua presença digital.",
-    title: "Gestão de trafico"
+    title: "Gestão de tráfego"
   }
 ]
